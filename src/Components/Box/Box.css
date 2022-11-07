@@ -1,0 +1,17 @@
+.gridbox {
+  display: grid;
+  grid-template-columns: repeat(5, 110px);
+  grid-template-rows: repeat(4, 160px);
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.flexbox {
+  width: 610px;
+  height: 690px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

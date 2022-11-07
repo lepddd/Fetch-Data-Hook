@@ -1,0 +1,18 @@
+.pagination_box {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination_number {
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #646cff;
+}
+
+.pagination_btn {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #646cff;
+}
