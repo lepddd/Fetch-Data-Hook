@@ -64,7 +64,6 @@ const useFetchData = (url, page) => {
       .then((data) => {
         const hasPrevPage = currentPage > page; //true or false
         const hasNextPage = currentPage < data.total_pages; //true or false
-        console.log("hasPrevPage " + hasPrevPage, "hasNextPage " + hasNextPage);
         dispatch({
           type: ACTION_TYPES.FETCH_SUCCESS,
           lastPage: data.total_pages,
